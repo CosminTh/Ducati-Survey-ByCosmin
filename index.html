@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<Header>
+<h1 id="title"> Ducati Model Purchase </h1>
+</Header>
+
+<body>
+<p id="description"> Fill details below to complete your Ducati order </p>
+
+
+<form id="survey-form">
+  
+  <div class="input-headings">
+  
+  <label for="name" id="name-label"> Name </label>
+  <input id="name" type="text" name="name" placeholder="Pecco Bagnaia" class="form-inputs" required> </input>
+  <br>
+  
+<label for="email" id="email-label"> Email </label>
+<input id="email" type="email" name="email" placeholder="ducatifactory@ducati.com" class="form-inputs" required> </input>
+<br>
+  
+<label for="number" id="number-label"> Age </label>
+<input id="number" type="number" name="number" placeholder="24" min="18" max="120" class="form-inputs" required> </input>
+<br>
+
+<label for="dropdown" id="model"> Select Model </label>
+<select id="dropdown" class="form-inputs">
+  <option value="Panigale_V4"> Panigale V4 </option>
+  <option value="Supersport_1100"> Supersport 1100 </option>
+  <option value="Monster_V2"> Monster V2 </option>
+  <option value="MultiStrada"> MultiStrada </option>
+</select>
+ <br>
+ <br>
+
+<label for="model_color" id="model_color"> <b> Model Color: </b> </label>
+<br>
+<input id="model_color" type="radio" id="rosso" name="color" value="rosso">
+<label for="model_color"> Rosso </label>
+<br>
+<input id="model_color" type="radio" id="nero" name="color" value="nero">
+<label for="model_color"> Nero </label>
+<br>
+<input id="model_color" type="radio" id="grigio perla" name="color" value="grigio perla">
+<label for="model_color"> Grigio Perla </label
+<br>
+<br>
+
+<label for="features"> <b> Add features: </b> </label>
+<br>
+<input id="checkbox" type="checkbox" name="features" value="carbon brakes">
+  <label for="checkbox"> Carbon Ceramic Brakes - $3,899 </label>
+<br>
+<input id="checkbox" type="checkbox" name="features" value="quickshifter">
+  <label for="checkbox"> Quickshifter - $1,299 </label>
+<br>
+<input id="checkbox" type="checkbox" name="features" value="exhaust">
+  <label for="checkbox"> Akrapovic Slip-On Exhaust System - $6,799 </label>
+<br>
+<br>
+   
+  <label id="textarea"> Additional Comments </label>
+<br>
+  <textarea id="textarea" name="instructions" rows="5" cols="40">
+  
+  </textarea>
+<br>
+<br>
+ 
+ <input id="submit" type="submit" value="Purchase a Ducati" class="submit-button">
+  
+  
+  
+  
+
+  </div>
+</form>
+
+</body>
+</html>
